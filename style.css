@@ -113,25 +113,31 @@ h1 {
   height: auto;
 }
 @media all and (max-width: 700px) {
-  .my-photo {
-    display: none;
-  }
   .navigation {
     display: block;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    background-color: #555555;
-    border-radius: 5px 5px 0 0;
+
     /* background-image: url(resources/my-logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 20px 0; */
   }
-  .links-web {
+  .wrapper-page-1 {
     display: block;
   }
-  .links-soc {
+
+  .links-web {
     display: block;
+
+    margin-left: 0px;
+    border: 1px solid;
+  }
+  .links-web li {
+    border: 1px solid;
+  }
+
+  .links-soc {
+    display: flex;
+    padding: 0;
   }
   .logo img {
     height: 60px;
