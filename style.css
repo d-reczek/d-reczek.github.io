@@ -90,7 +90,7 @@ h1 {
   font-size: 40px;
   padding: 15px;
   background-color: #838383;
-  border-radius: 40px 0 0 0;
+  border-radius: 5px 5px 0 0;
 }
 
 .about-me-paragraph {
@@ -113,6 +113,9 @@ h1 {
   height: auto;
 }
 @media all and (max-width: 1000px) {
+  .wrapper {
+    max-width: 100%;
+  }
   .navigation {
     display: block;
 
@@ -123,6 +126,10 @@ h1 {
   }
   .wrapper-page-1 {
     display: block;
+  }
+  .about-me {
+    padding: 5px 5px;
+    flex: 1 0;
   }
 
   .links-web {
@@ -142,8 +149,5 @@ h1 {
   .logo img {
     height: 60px;
     margin: 0;
-  }
-  .wrapper {
-    max-width: 100%;
   }
 }
