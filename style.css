@@ -45,21 +45,35 @@ a {
   padding: 5px;
 }
 .links-soc img {
-  height: 40px;
+  margin-top: 5px 0;
+  height: 35px;
 }
 .links-web {
   display: flex;
+  align-items: center;
   padding: 0;
   margin-left: 50px;
 }
 .links-soc {
   display: flex;
-  padding: 0;
+  align-items: center;
+  padding: 5px;
 }
+
 .navigation a:hover {
   color: #fff;
   border-bottom: 1px solid;
+  padding-bottom: 0;
 }
+.linked-in:hover {
+  border-radius: 5px;
+  background-color: white;
+}
+.git-hub:hover {
+  border-radius: 5px;
+  background-color: white;
+}
+
 .wrapper-page-1 {
   display: flex;
 }
