@@ -20,54 +20,76 @@ nav {
 }
 .navigation {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   background-color: #555555;
   border-radius: 5px 5px 0 0;
+  /* background-image: url(resources/my-logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 20px 0; */
+}
+.logo img {
+  height: 60px;
+  margin: 20px auto;
 }
 .navigation li,
 a {
-  color: #fff;
-  font-size: 20px;
+  color: #000;
+  font-size: 35px;
   text-transform: uppercase;
   text-decoration: none;
   list-style-type: none;
   padding: 5px;
 }
-.links-soc a {
+.links-soc img {
+  height: 40px;
 }
 .links-web {
   display: flex;
   padding: 0;
+  margin-left: 50px;
 }
 .links-soc {
   display: flex;
   padding: 0;
 }
 .navigation a:hover {
-  color: #000;
+  color: #fff;
   border-bottom: 1px solid;
 }
 .wrapper-page-1 {
   display: flex;
 }
 .about-me {
-  padding: 80px;
+  padding: 20px 40px;
   flex: 1 0;
 }
 h1 {
+  margin: 10px 0;
+  color: #fff;
   text-transform: uppercase;
+  font-weight: normal;
   font-size: 60px;
+  padding: 15px;
+  background-color: grey;
+  border-radius: 40px 0 0 0;
+}
+
+.about-me-paragraph {
+  font-size: 20px;
+}
+.about-me-paragraph-blockquote {
+  font-size: 25px;
 }
 .my-photo {
-  padding: 80px;
+  flex: 1 0;
+  padding: 20px 40px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .my-photo img {
-  flex: 10 0;
   max-width: 100%;
   height: 60vh;
-}
-.about-me-paragraph {
-  font-size: 30px;
 }
