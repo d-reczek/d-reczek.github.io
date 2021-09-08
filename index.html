@@ -4,38 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
-    <h1>Jan Kowalski</h1>
-    <h2>Cześć!</h2>
-    <p>
-      To jest przykładowa strona profilowa. Swoją własną zrealizujesz w ramach
-      projektu na zajęciach :)
-    </p>
-    <h3>Poczytaj</h3>
-    <ul>
-      <li>Blog</li>
-      <li>Email</li>
-      <li>Newsletter</li>
-    </ul>
-
-    <h3>Pingnij mnie</h3>
-    <ul>
-      <li>Twitter</li>
-      <li>Instagram</li>
-      <li>Dribbble</li>
-    </ul>
-
-    <h3>Zobacz</h3>
-    <ul>
-      <li>Projekt 1</li>
-      <li>Projekt 2</li>
-      <li>Projekt 3</li>
-    </ul>
-
-    <footer>
-      <p>&copy;2021 - Jan Kowalski</p>
-    </footer>
+    <div class="wrapper">
+      <nav>
+        <div class="navigation">
+          <ul class="links-web">
+            <li><a href="">Strona główna</a></li>
+            <li><a href="">O mnie</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Kontakt</a></li>
+            <li><a href=""></a></li>
+          </ul>
+          <ul class="links-soc">
+            <li>
+              <a
+                class="linked-in"
+                href="https://www.linkedin.com/in/dariusz-reczek-18a6a9214/"
+                target="blank"
+                ><img src="resources/linked-in-logo.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                class="git-hub"
+                href="https://github.com/d-reczek?tab=repositories"
+                target="blank"
+                ><img class="git-hub" src="resources/hit-hub-logo.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section class="page-1">
+        <div class="wrapper-page-1">
+          <div class="about-me">
+            <h1>Cześć mam na imię Darek</h1>
+            <p class="about-me-paragraph">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              amet exercitationem voluptatum. Facere, officiis. Molestias, enim
+              repudiandae, officiis rerum alias nulla eligendi natus laborum
+              veritatis aliquid beatae autem, atque perspiciatis?
+            </p>
+          </div>
+          <div class="my-photo">
+            <img src="resources/my-photo.jpg" alt="Moje zdjęcie nad morzem" />
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
