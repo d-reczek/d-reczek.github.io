@@ -35,7 +35,6 @@ nav {
   justify-content: space-around;
   background-color: var(--navigation-color);
   border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
-  
 }
 
 .container-logo img {
@@ -144,17 +143,12 @@ footer {
   border-radius: 0 0 var(--main-border-radius) var(--main-border-radius);
   color: #fff;
 }
-footer p {
-  /* display: inline; */
-  /* display: flex; */
-}
-.copy-right {
-}
 
 .made-by {
   text-transform: uppercase;
   text-align: right;
 }
+
 @media screen and (max-width: 1000px) {
   .wrapper {
     /* zawsze jakis margines zostawiamy w poziomie */
@@ -163,13 +157,6 @@ footer p {
   .navigation {
     flex-direction: column;
     align-items: center;
-
-    /* display: block; */
-
-    /* background-image: url(resources/my-logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 20px 0; */
   }
 
   .hamburger {
@@ -183,40 +170,31 @@ footer p {
   .hamburger:hover {
     background-color: #fff;
     padding: 10px;
-    /* padding: 15px 5px 0px 5px; */
     border-radius: 5px;
     border-radius: var(--main-border-radius);
     transition-property: all;
     transition-duration: 0.1s;
-    /* transition-timing-function: ease-in; */
   }
 
   .page-1 {
-    /*zmienic na flex column  */
     flex-direction: column;
-    /* display: block; */
   }
   .about-me {
     padding: 5px 5px;
-    /* flex: 1 0; */
   }
 
   .links-web {
-    /* position: fixed; */
     display: none;
-    /* top: -9999px; */
     transition-property: all;
     transition-duration: 0.2s;
-    /* transition-timing-function:linear; */
   }
+
   .links-web.active {
-    /* position: static; */
     display: block;
-    top: 300px;z
+    top: 300px;
     display: block;
     margin-left: 0px;
     border: 1px solid;
-   
   }
 
   .links-soc {
