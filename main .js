@@ -1,6 +1,13 @@
-const logo = document.querySelector('.container-logo');
-const links = document.querySelector('.links-web');
+//Hamburger menu
 
-logo.addEventListener('click', function() {
-    links.classList.toggle('hidden');
+const hamburger = document.querySelector('.hamburger');
+const linksWeb = document.querySelector('.links-web');
+const linksSoc = document.querySelector(".links-soc");
+
+hamburger.addEventListener('click', function() {
+    linksWeb.classList.toggle('active');
+    linksSoc.classList.toggle('active');
 })
+
+
+

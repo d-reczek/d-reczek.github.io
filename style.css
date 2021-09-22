@@ -34,6 +34,7 @@ nav {
   background-color: var(--navigation-color);
   border-radius: 5px 5px 0 0;
 }
+
 .container-logo img {
   height: 60px;
   margin: 20px auto;
@@ -77,6 +78,19 @@ a {
   background-color: #fff;
   padding: 15px 5px 0px 5px;
   border-radius: 5px;
+}
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
 }
 
 .page-1 {
@@ -124,6 +138,7 @@ h1 {
   .navigation {
     flex-direction: column;
     align-items: center;
+
     /* display: block; */
 
     /* background-image: url(resources/my-logo.png);
@@ -131,6 +146,13 @@ h1 {
     background-size: contain;
     background-position: 20px 0; */
   }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+
   .page-1 {
     /*zmienic na flex column  */
     flex-direction: column;
@@ -142,21 +164,25 @@ h1 {
   }
 
   .links-web {
-    /*zmienic na flex column  */
-    /* flex-direction: column; */
+    display: none;
+  }
+  .links-web.active {
     display: block;
     margin-left: 0px;
     border: 1px solid;
   }
+  .links-soc {
+    display: none;
+  }
+  .links-soc.active {
+    display: flex;
+    padding: 10px;
+  }
+
   .links-web li {
     border: 1px solid;
   }
 
-  .links-soc {
-    /* display: flex; */
-    /* plik mini-reset - domysle padding  */
-    padding: 0;
-  }
   .container-logo img {
     height: 60px;
     margin: 0;
