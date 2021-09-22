@@ -202,15 +202,15 @@ footer p {
   }
 
   .links-web {
-    position: fixed;
-    /* display: block; */
-    top: -9999px;
+    /* position: fixed; */
+    display: none;
+    /* top: -9999px; */
     transition-property: all;
     transition-duration: 0.2s;
-    transition-timing-function:linear;
+    /* transition-timing-function:linear; */
   }
   .links-web.active {
-    position: static;
+    /* position: static; */
     display: block;
     top: 300px;z
     display: block;
