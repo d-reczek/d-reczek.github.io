@@ -119,6 +119,10 @@ h2 {
   background-color: #838383;
   border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
 }
+h2 {
+  color: #fff;
+  font-size: 2rem;
+}
 
 .about-me-paragraph {
   font-size: 1.2rem;
@@ -142,7 +146,7 @@ h2 {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: var(--footer-background);
   padding: 10px 20px;
   border-radius: 0 0 var(--main-border-radius) var(--main-border-radius);
@@ -154,12 +158,30 @@ footer {
   text-align: right;
 }
 
+/* CONTACT PAGE  */
+
+.contact-page {
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-contact-container {
+  margin: 20px;
+  width: 50%;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  width: 30%;
+  margin: 30px;
+}
+
 h2.form-contact {
   display: inline-block;
   columns: #000;
-  font-size: 2rem;
   padding: 15px;
-  /* margin: 20px; */
   background-color: var(--h1-background);
   border-radius: var(--main-border-radius);
 }
@@ -203,10 +225,6 @@ textarea {
   font-family: inherit;
 }
 
-.form-contact-container {
-  margin: 20px;
-  width: 50%;
-}
 .btn-form-send {
   box-sizing: border-box;
   border: none;
@@ -292,5 +310,15 @@ textarea {
   .container-logo img {
     height: 60px;
     margin: 0;
+  }
+
+  /* contact page */
+
+  .form-contact-container {
+    width: 95%;
+  }
+
+  .photo-container {
+    display: none;
   }
 }
