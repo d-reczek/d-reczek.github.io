@@ -223,17 +223,18 @@ textarea {
 }
 
 .form-contact input:focus {
-  width: 60%;
+  width: 70%;
   border-left: 5px solid #000;
   background: var(--main-background);
   transition-property: background, width;
   transition-duration: 0.4s;
 }
 .form-contact textarea:focus {
-  width: 60%;
+  width: 70%;
+  height: 100px;
   border-left: 5px solid #000;
   background: var(--main-background);
-  transition-property: background, width;
+  transition-property: background, width, height;
   transition-duration: 0.6s;
   border-radius: var(--main-border-radius);
 }
@@ -251,6 +252,7 @@ textarea {
   font-weight: normal;
   font-size: 1rem;
   padding: 8px;
+  width: 80px;
   background-color: var(--h1-background);
   border-radius: var(--main-border-radius);
   cursor: pointer;
@@ -260,6 +262,8 @@ textarea {
   color: #fff;
   padding: 10px;
   border-radius: 5px;
+  width: 100px;
+  font-size: 1.2rem;
   border-radius: var(--main-border-radius);
   transition-property: all;
   transition-duration: 0.2s;
