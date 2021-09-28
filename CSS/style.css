@@ -149,9 +149,9 @@ h2 {
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--footer-background);
-  padding: 10px 20px;
+  padding: 10px 40px;
   border-radius: 0 0 var(--main-border-radius) var(--main-border-radius);
   color: #fff;
 }
