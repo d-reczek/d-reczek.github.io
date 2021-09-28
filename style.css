@@ -15,19 +15,23 @@ h1 background #838383
   font-size: 16px;
 }
 
+/* MAIN PAGE  */
+
 body {
   margin: 0;
   background-color: var(--main-background);
   font-family: "Source Sans Pro", sans-serif;
 }
 .wrapper {
-  background-color: var(--page-background);
-  border-radius: var(--main-border-radius);
-  /* mozna uzywac pikseli */
   max-width: 80%;
-  /* max-width: 1200px; */
   margin: 50px auto;
 }
+
+.background-color-border-radius-wrappee {
+  background-color: var(--page-background);
+  border-radius: var(--main-border-radius);
+}
+
 nav {
   border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
 }
@@ -43,7 +47,6 @@ nav {
   height: 60px;
   margin: 20px auto;
 }
-/* display inline-block */
 .navigation li,
 a {
   color: #000;
@@ -160,13 +163,12 @@ footer {
 
 /* CONTACT PAGE  */
 
-.contact-page {
+.form-contact-container {
+  width: 50%;
+}
+.contact-page-flex-container {
   display: flex;
   justify-content: space-evenly;
-}
-.form-contact-container {
-  margin: 20px;
-  width: 50%;
 }
 
 .photo-container {
@@ -175,7 +177,6 @@ footer {
   align-items: center;
   object-fit: cover;
   width: 30%;
-  margin: 30px;
 }
 
 h2.form-contact {
@@ -247,9 +248,10 @@ textarea {
   transition-duration: 0.2s;
 }
 
+/* PORTFOLIO PAGE  */
+
 @media screen and (max-width: 1000px) {
   .wrapper {
-    /* zawsze jakis margines zostawiamy w poziomie */
     max-width: 95%;
   }
   .navigation {
@@ -312,7 +314,7 @@ textarea {
     margin: 0;
   }
 
-  /* contact page */
+  /* CONTACT PAGE */
 
   .form-contact-container {
     width: 95%;

@@ -61,38 +61,40 @@
       </nav>
       <main>
         <section class="contact-page">
-          <div class="form-contact-container">
-            <form class="form-contact" action="form.php" method="POST">
-              <h2 class="form-contact">Kontakt do mnie</h2>
-              <label for="email">E-mail</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                required
-                placeholder="Podaje swój e-mail"
-              />
-              <label for="name">Imie</label>
-              <input
-                type="name"
-                name="name"
-                id="name"
-                required
-                placeholder="Podaj swoje imię"
-                pattern="[A-ząćęłńśóźż]{2,}"
-                title="Tylko litery"
-              />
-              <label for="message">Wiadomość</label>
-              <textarea
-                name="message"
-                required
-                placeholder="Wpisz swoją wiadomość"
-              ></textarea>
-              <button class="btn-form-send" type="submit">Wyślij</button>
-            </form>
-          </div>
-          <div class="photo-container">
-            <img src="./resources/form-photo.jpg" alt="" />
+          <div class="wrapper contact-page-flex-container">
+            <div class="form-contact-container">
+              <form class="form-contact" action="form.php" method="POST">
+                <h2 class="form-contact">Kontakt do mnie</h2>
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Podaje swój e-mail"
+                />
+                <label for="name">Imie</label>
+                <input
+                  type="name"
+                  name="name"
+                  id="name"
+                  required
+                  placeholder="Podaj swoje imię"
+                  pattern="[A-ząćęłńśóźż]{2,}"
+                  title="Tylko litery"
+                />
+                <label for="message">Wiadomość</label>
+                <textarea
+                  name="message"
+                  required
+                  placeholder="Wpisz swoją wiadomość"
+                ></textarea>
+                <button class="btn-form-send" type="submit">Wyślij</button>
+              </form>
+            </div>
+            <div class="photo-container">
+              <img src="./resources/form-photo.jpg" alt="" />
+            </div>
           </div>
         </section>
       </main>
