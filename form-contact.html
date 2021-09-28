@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="resources/my-logo.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>DR - przyszły Fronted Developer</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="navigation">
+          <div class="container-logo">
+            <img src="resources/my-logo.png" alt="" />
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+
+          <ul class="links-web">
+            <li><a href="/index.html">Strona główna</a></li>
+            <li><a href="">O mnie</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Kontakt</a></li>
+          </ul>
+          <ul class="links-soc">
+            <li>
+              <a
+                aria-label="Przejdz na mój profil na Linked-In"
+                aria-hidden="true"
+                class="links-soc-item linked-in"
+                href="https://www.linkedin.com/in/dariusz-reczek-18a6a9214/"
+                target="blank"
+                ><img src="resources/linked-in-logo.svg" alt=""
+              /></a>
+            </li>
+            <li>
+              <a
+                class="links-soc-item git-hub"
+                href="https://github.com/d-reczek"
+                target="blank"
+                ><img src="resources/git-hub-logo.svg" alt=""
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- wrzucic main  -->
+      <main>
+        <section class="page-1">
+          <!-- usun page-1 -->
+          <!-- <div class="wrapper-page-1"> -->
+          <div class="form-contact-container">
+            <!-- wrzucic w header  -->
+            <form class="form-contact" action="" method="POST">
+              <h2 class="form-contact">Kontakt do mnie</h2>
+              <label for="email">E-mail</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                placeholder="Podaje swój e-mail"
+              />
+              <label for="name">Imie</label>
+              <input
+                type="name"
+                name="name"
+                id="name"
+                required
+                placeholder="Podaj swoje imię"
+              />
+              <label for="message">Wiadomość</label>
+              <textarea
+                name="message"
+                required
+                placeholder="Wpisz swoją wiadomość"
+              ></textarea>
+              <button class="btn-form-send" type="submit">Wyślij</button>
+            </form>
+          </div>
+
+          <!-- blockoute osobno nie w p nie domkniety p -->
+          <!-- <p class="about-me-paragraph">
+            Jakiś czas temu stwierdziłem, że muszę zmienić coś w swoim życiu.</p>
+          <blockquote class="about-me-paragraph-blockquote">"...musisz sobie odpowiedzieć na jedno zaj...ie, ale to
+            zaj...ie ważne pytanie: co chcesz robić w życiu – i zacząć to robić"...
+          </blockquote>
+          <p class="about-me-paragraph"> Stwierdziłem, że lubie spędzać czas przy
+            komputerze tworząc na nim różne rzeczy oraz rozwiązując rozmaite
+            problemy. Skoro stwierdziłem, że lubie to robić więc zrobiłem krok
+            żeby zacząć to robić i rozpoczałem swoją przygodę z
+            programowaniem.
+          </p>
+          </p>
+        </div>
+        <div class="my-photo">
+          <img src="resources/my-photo.jpg" alt="Moje zdjęcie nad morzem" />
+        </div> -->
+          <!-- </div> -->
+        </section>
+      </main>
+      <footer>
+        <p class="copy-right">&copy; 2021 All rights reserverd</p>
+        <p class="made-by">Made by D. Reczek</p>
+      </footer>
+    </div>
+
+    <script src="/main .js"></script>
+  </body>
+</html>
