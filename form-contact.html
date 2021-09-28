@@ -59,14 +59,10 @@
           </ul>
         </div>
       </nav>
-      <!-- wrzucic main  -->
       <main>
         <section class="page-1">
-          <!-- usun page-1 -->
-          <!-- <div class="wrapper-page-1"> -->
           <div class="form-contact-container">
-            <!-- wrzucic w header  -->
-            <form class="form-contact" action="" method="POST">
+            <form class="form-contact" action="form.php" method="POST">
               <h2 class="form-contact">Kontakt do mnie</h2>
               <label for="email">E-mail</label>
               <input
@@ -83,6 +79,8 @@
                 id="name"
                 required
                 placeholder="Podaj swoje imię"
+                pattern="[A-ząćęłńśóźż]{2,}"
+                title="Tylko litery"
               />
               <label for="message">Wiadomość</label>
               <textarea
@@ -93,25 +91,6 @@
               <button class="btn-form-send" type="submit">Wyślij</button>
             </form>
           </div>
-
-          <!-- blockoute osobno nie w p nie domkniety p -->
-          <!-- <p class="about-me-paragraph">
-            Jakiś czas temu stwierdziłem, że muszę zmienić coś w swoim życiu.</p>
-          <blockquote class="about-me-paragraph-blockquote">"...musisz sobie odpowiedzieć na jedno zaj...ie, ale to
-            zaj...ie ważne pytanie: co chcesz robić w życiu – i zacząć to robić"...
-          </blockquote>
-          <p class="about-me-paragraph"> Stwierdziłem, że lubie spędzać czas przy
-            komputerze tworząc na nim różne rzeczy oraz rozwiązując rozmaite
-            problemy. Skoro stwierdziłem, że lubie to robić więc zrobiłem krok
-            żeby zacząć to robić i rozpoczałem swoją przygodę z
-            programowaniem.
-          </p>
-          </p>
-        </div>
-        <div class="my-photo">
-          <img src="resources/my-photo.jpg" alt="Moje zdjęcie nad morzem" />
-        </div> -->
-          <!-- </div> -->
         </section>
       </main>
       <footer>
@@ -119,7 +98,6 @@
         <p class="made-by">Made by D. Reczek</p>
       </footer>
     </div>
-
     <script src="/main .js"></script>
   </body>
 </html>
