@@ -102,7 +102,7 @@ a {
 .main-page {
   display: flex;
 }
-.about-me {
+.about-me-container {
   padding: 20px 40px;
   flex: 1 0;
 }
@@ -176,16 +176,27 @@ textarea {
 .form-contact input,
 textarea {
   height: 35px;
-  width: 90%;
+  width: 75%;
   font-size: inherit;
   font-family: inherit;
+  background-color: var(--page-background);
+  border: 1px solid #000;
 }
 
 .form-contact input:focus {
+  width: 60%;
   border-left: 5px solid #000;
+  background: var(--main-background);
+  transition-property: background, width;
+  transition-duration: 0.4s;
 }
 .form-contact textarea:focus {
+  width: 60%;
   border-left: 5px solid #000;
+  background: var(--main-background);
+  transition-property: background, width;
+  transition-duration: 0.6s;
+  border-radius: var(--main-border-radius);
 }
 .form-contact textarea {
   height: 80px;
