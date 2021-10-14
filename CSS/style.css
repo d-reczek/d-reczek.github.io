@@ -8,7 +8,7 @@ h1 background #838383
 :root {
   --main-background: #f2f0ee;
   --navigation-color: #555;
-  --page-background: #f8f8f8;
+  --page-background: #e6e0e0;
   --h1-background: #838383;
   --footer-background: rgba(0, 0, 0, 0.7);
   --main-border-radius: 5px;
@@ -25,12 +25,16 @@ body {
 .wrapper {
   max-width: 80%;
   margin: 50px auto;
+  background-color: var(--page-background);
 }
 
-.background-color-border-radius-wrappee {
+/* .main-page,
+.portfolio-page,
+.contact-page,
+.about-me-page {
   background-color: var(--page-background);
   border-radius: var(--main-border-radius);
-}
+} */
 
 nav {
   border-radius: var(--main-border-radius) var(--main-border-radius) 0 0;
