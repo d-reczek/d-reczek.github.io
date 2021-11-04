@@ -189,17 +189,41 @@ footer {
 /* PORTFOLIO PAGE  */
 
 .grid-projects {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  justify-items: center;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 5px; */
+  /* justify-items: center; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
 }
 
 .project-box {
   /* object-fit: contain; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: var(--main-border-radius);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 200px;
-  background-color: red;
+  background-color: rgba(85, 85, 85, 1);
+  background-image: linear-gradient(
+    360deg,
+    rgba(85, 85, 85, 1) 4%,
+    rgba(230, 224, 224, 1) 70%
+  );
+}
+.project-box:hover {
+  transition: all;
+  transition-duration: 0.4s;
+  background: var(--h1-background);
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
 }
 
 /* CONTACT PAGE  */
