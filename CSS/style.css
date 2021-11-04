@@ -166,6 +166,25 @@ footer {
 }
 
 /* ABOUT ME  */
+.portfolio-link {
+  text-transform: none;
+  font-size: inherit;
+  text-decoration: underline;
+}
+.about-me-page-container {
+  display: flex;
+}
+.my-photo-small {
+  width: 40%;
+  align-self: center;
+}
+
+.portfolio-link:hover {
+  color: red;
+  /* transition-property: all; */
+  /* transition-duration: 0.4s; */
+  /* padding: 5px; */
+}
 
 /* PORTFOLIO PAGE  */
 
