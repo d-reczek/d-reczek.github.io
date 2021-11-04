@@ -341,6 +341,7 @@ textarea {
     transition-property: all;
     transition-duration: 0.1s;
   }
+  /* MAIN PAGE  */
 
   .main-page {
     flex-direction: column;
@@ -378,6 +379,11 @@ textarea {
   .container-logo img {
     height: 60px;
     margin: 0;
+  }
+  /* ABOUT ME  */
+
+  .about-me-page-container {
+    flex-direction: column;
   }
 
   /* CONTACT PAGE */
