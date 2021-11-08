@@ -104,7 +104,7 @@ a {
   transition: all 0.3s ease-in-out;
   background-color: #101010;
 }
-
+/* MAIN PAGE */
 .main-page {
   display: flex;
 }
@@ -136,6 +136,12 @@ h2 {
 }
 .about-me-paragraph-blockquote {
   font-size: 1.4rem;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.blockquote-author {
+  text-align: right;
+  padding: 5px;
 }
 .my-photo {
   flex: 1 0;
