@@ -51,8 +51,7 @@ nav {
   height: 60px;
   margin: 20px auto;
 }
-.navigation li,
-a {
+.navigation a {
   color: #000;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -205,12 +204,18 @@ footer {
   gap: 10px;
   justify-content: center;
 }
+.grid-projects a {
+  color: #000;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
+}
 
 .project-box {
   /* object-fit: contain; */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   border-radius: var(--main-border-radius);
   align-items: center;
   justify-content: center;
@@ -219,18 +224,27 @@ footer {
   align-items: center;
   width: 200px;
   height: 200px;
-  background-color: rgba(85, 85, 85, 1);
   background-image: linear-gradient(
-    360deg,
-    rgba(85, 85, 85, 1) 4%,
-    rgba(230, 224, 224, 1) 70%
+    to bottom,
+    #f2f0ee,
+    #c9c6c6,
+    #a09f9f,
+    #797979,
+    #555555
   );
 }
 .project-box:hover {
   transition: all;
-  transition-duration: 0.4s;
-  background: var(--h1-background);
-  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  transition-duration: 1s;
+  background-image: linear-gradient(
+    to top,
+    #f2f0ee,
+    #c9c6c6,
+    #a09f9f,
+    #797979,
+    #555555
+  );
+  box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
 }
 
 /* CONTACT PAGE  */
