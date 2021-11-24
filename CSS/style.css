@@ -1,5 +1,3 @@
-
-
 :root {
   --main-background: #f2f0ee;
   --navigation-color: #555;
@@ -159,6 +157,7 @@ footer {
 
 /* ABOUT ME  */
 .portfolio-link {
+  color: inherit;
   text-transform: none;
   font-size: inherit;
   text-decoration: underline;
