@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./../CSS/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="icon" href="resources/my-logo.png" />
+  <link rel="icon" href="../resources/my-logo.png" />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400&display=swap"
     rel="stylesheet" />
   <title>DR - przyszły Fronted Developer</title>
@@ -50,19 +50,23 @@
     <main>
       <section class="contact-page">
         <div class="wrapper contact-page-flex-container">
-          <div class="form-contact-container">
-            <!-- GITHUB doesnt work with PHP -->
-            <form class="form-contact" action="./../form.php" method="POST">
+       
+            <div class="contact">
               <h2 class="form-contact">Kontakt do mnie</h2>
-              <label for="email">E-mail</label>
+              <div class="email-container">
+                <p>Adres e-mail:</p>
+                <strong>dariusz.reczek@gmail.com</strong>
+              </div>
+
+              <!-- <label for="email">E-mail</label>
               <input type="email" name="email" id="email" required placeholder="Podaje swój e-mail" />
               <label for="name">Imie</label>
               <input type="text" name="name" id="name" required placeholder="Podaj swoje imię" />
               <label>Wiadomość</label>
               <textarea name="message" required placeholder="Wpisz swoją wiadomość"></textarea>
-              <button class="btn-form-send" type="submit">Wyślij</button>
-            </form>
-          </div>
+              <button class="btn-form-send" type="submit">Wyślij</button> -->
+            </div>
+        
           <div class="photo-container">
             <img src="./../resources/form-photo.jpg" alt="" />
           </div>
@@ -70,7 +74,7 @@
       </section>
     </main>
     <footer>
-      <p class="copy-right">&copy; 2021 All rights reserverd</p>
+      <p class="copy-right">&copy; 2022 All rights reserverd</p>
       <p class="made-by">Made by D. Reczek</p>
     </footer>
   </div>

@@ -227,7 +227,7 @@ footer {
 
 /* CONTACT PAGE  */
 
-.form-contact-container {
+.contact {
   width: 50%;
 }
 .contact-page-flex-container {
@@ -249,69 +249,12 @@ h2.form-contact {
   background-color: var(--h1-background);
   border-radius: var(--main-border-radius);
 }
-
-.form-contact input,
-label,
-textarea {
-  display: block;
-  margin: 5px;
-  font-size: 1.3rem;
+.email-container {
+  margin-top: 20px;
 }
-
-.form-contact input,
-textarea {
-  height: 35px;
-  width: 75%;
-  font-size: inherit;
-  font-family: inherit;
-  background-color: var(--page-background);
-  border: 1px solid #000;
-}
-
-.form-contact input:focus {
-  width: 70%;
-  border-left: 5px solid #000;
-  background: var(--page-background);
-  transition-property: background, width;
-  transition-duration: 0.4s;
-}
-.form-contact textarea:focus {
-  width: 70%;
-  height: 100px;
-  border-left: 5px solid #000;
-  background: var(--page-background);
-  transition-property: background, width, height;
-  transition-duration: 0.6s;
-  border-radius: var(--main-border-radius);
-}
-.form-contact textarea {
-  height: 80px;
-  font-size: inherit;
-  font-family: inherit;
-}
-
-.btn-form-send {
-  display: inline-block;
-  box-sizing: border-box;
-  border: none;
-  margin: 10px 0;
-  text-transform: uppercase;
-  font-weight: normal;
-  font-size: 1rem;
-  padding: 10px;
-  background-color: var(--h1-background);
-  border-radius: var(--main-border-radius);
-  cursor: pointer;
-}
-.btn-form-send:hover {
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  border-radius: var(--main-border-radius);
-  transition-property: all;
-  transition-duration: 0.2s;
+.email-container p {
+  margin-top: 10px;
+  font-size: 1.2rem;
 }
 
 @media screen and (max-width: 1000px) {
